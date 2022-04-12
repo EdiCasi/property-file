@@ -1,1 +1,9 @@
-name=Edi
+name: none
+---
+spring:
+  profiles: prod
+name: prodName
+---
+spring:
+  profiles: dev
+name: devName
